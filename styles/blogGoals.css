@@ -1,6 +1,6 @@
 .swot-table{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
 .swot-table>div{
@@ -28,4 +28,5 @@ ol{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-left: 20px;
 }
