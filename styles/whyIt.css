@@ -1,0 +1,56 @@
+.content-container>div{
+    background-color: rgb(48, 48, 48);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+.g-circle{
+    display: flex;
+    gap: 60px;
+}
+.g-circle .circle{
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.g-circle .c1{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+.g-circle .c2{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(151, 137, 7);
+}
+.g-circle .c3{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(224, 215, 89);
+}
+
+.g-circle .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.g-circle .info>div{
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.g-circle .info>:nth-child(1){
+    background-color: black;
+    color: white;
+}
+.g-circle .info>:nth-child(2){
+    background-color: rgb(151, 137, 7);
+}
+.g-circle .info>:nth-child(3){
+    background-color: rgb(224, 215, 89);
+}
+.g-circle .info>:nth-child(3) *{
+    color: black;
+}

@@ -1,0 +1,84 @@
+.two-content-container{
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.side-information{
+    flex: 1;
+    padding: 20px 20px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 50px;
+    border: solid 3px rgba(110, 110, 110, 0.418);
+}
+.side-information>div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 34, 53, 0.733);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 30px;
+}
+.side-information div ul{
+    padding-left: 20px;
+}
+.side-information div ul a{
+    color: rgb(109, 207, 236);
+}
+.content-grid{
+    flex: 4;
+    background-color: rgb(48, 48, 48);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
+    padding: 20px 20px;
+    border-radius: 50px;
+    border: solid 3px rgba(110, 110, 110, 0.418);
+}
+.content-grid>div{
+    height: 350px;
+    background-color: rgba(3, 34, 53, 0.733);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 30px;
+}
+
+.content-grid :nth-child(3),.content-grid :nth-child(4){
+    background-color: rgba(43, 30, 7, 0.733);
+}
+.content-grid :nth-child(5),.content-grid :nth-child(6){
+    background-color: rgba(3, 53, 28, 0.733);
+}
+.content-grid :nth-child(7),.content-grid :nth-child(8){
+    background-color: rgba(53, 3, 7, 0.733);
+}
+
+
+.img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.who{
+    background-image: url("../images/Who-1.jpeg");
+}
+.afg{
+    background-image: url("../images/afg.png");
+}
+.hobby{
+    background-image: url("../images/exploring.png");
+}
+.movie{
+    background-image: url("../images/moneyHeist.jpg");
+}
+.hz-logo{
+    background-image: url("../images/hz-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

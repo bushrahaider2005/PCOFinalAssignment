@@ -1,0 +1,42 @@
+.content-container .content{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    min-height: 400px;
+}
+.text{
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgb(6, 39, 18);
+    color: rgb(195, 195, 195);
+}
+
+.content div{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.content div ul{
+    padding-left: 20px;
+}
+
+
+.image-1{
+    background-image: url("../images/Screenshot\ 2026-10-25\ 183824.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image-2{
+    background-image: url("../images/Screenshot\ 2026-10-25\ 183023.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image-3{
+    background-image: url("../images/Screenshot\ 2026-10-10\ 145536.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

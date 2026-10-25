@@ -1,0 +1,37 @@
+.content-container{
+    width: 100%;
+}
+.grades-grid{
+    background-color: rgb(87, 87, 87);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 20px 10px;
+    padding: 30px;
+    border-radius: 30px;
+}
+.grades-grid h3, p{
+    color: black;
+}
+.grades-grid>div{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: rgb(228, 224, 224);
+    border-radius: 10px;
+}
+.grades-grid .t1{
+    background-color: rgb(120, 197, 133);
+}
+.grades-grid .t2{
+    background-color: rgb(120, 162, 197);
+}
+.grades-grid .t3{
+    background-color: rgb(188, 120, 197);
+}
+.grades-grid .t4{
+    background-color: rgb(197, 144, 120);
+}
